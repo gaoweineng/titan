@@ -1,0 +1,938 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>GMChip · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ICCard.html" />
+    
+    
+    <link rel="prev" href="Flashlight.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../../">
+            
+                <a href="../../../../../">
+            
+                    
+                    关于Titan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../../../versions/">
+            
+                <a href="../../../../../versions/">
+            
+                    
+                    版本履历
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../../../../versions/1.0.0.html">
+            
+                <a href="../../../../../versions/1.0.0.html">
+            
+                    
+                    1.0.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../../../developers/developer.html">
+            
+                <a href="../../../../../developers/developer.html">
+            
+                    
+                    开发者指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../../../security/authen.html">
+            
+                <a href="../../../../../security/authen.html">
+            
+                    
+                    鉴权方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    API 文档
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../common/Errors.html">
+            
+                <a href="../../common/Errors.html">
+            
+                    
+                    API 错误码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    titan.android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../TitanContext.html">
+            
+                <a href="../../TitanContext.html#TitanContext">
+            
+                    
+                    TitanContext
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../DeviceNotSupportedException.html">
+            
+                <a href="../../DeviceNotSupportedException.html">
+            
+                    
+                    DeviceNotSupportedException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../../MethodNotSupportedException.html">
+            
+                <a href="../../MethodNotSupportedException.html">
+            
+                    
+                    MethodNotSupportedException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="../../NotPermissionException.html">
+            
+                <a href="../../NotPermissionException.html">
+            
+                    
+                    NotPermissionException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.5" data-path="../../RemoteExecuteException.html">
+            
+                <a href="../../RemoteExecuteException.html">
+            
+                    
+                    RemoteExecuteException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.6" data-path="../../ServiceDeathException.html">
+            
+                <a href="../../ServiceDeathException.html">
+            
+                    
+                    ServiceDeathException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.7" data-path="../../ServiceNotFoundException.html">
+            
+                <a href="../../ServiceNotFoundException.html">
+            
+                    
+                    ServiceNotFoundException
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    titan.android.dataacq
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../DataAcqService.html">
+            
+                <a href="../DataAcqService.html">
+            
+                    
+                    DataAcqService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../ComponentStatus.html">
+            
+                <a href="../ComponentStatus.html">
+            
+                    
+                    ComponentStatus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    titan.android.dataacq.hardware
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="AudioJack.html">
+            
+                <a href="AudioJack.html">
+            
+                    
+                    AudioJack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="Battery.html">
+            
+                <a href="Battery.html">
+            
+                    
+                    Battery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="Bluetooth.html">
+            
+                <a href="Bluetooth.html">
+            
+                    
+                    Bluetooth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="Camera.html">
+            
+                <a href="Camera.html">
+            
+                    
+                    Camera
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.5" data-path="CPU.html">
+            
+                <a href="CPU.html">
+            
+                    
+                    CPU
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.6" data-path="EMMC.html">
+            
+                <a href="EMMC.html">
+            
+                    
+                    EMMC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.7" data-path="Ethernetmd">
+            
+                <span>
+            
+                    
+                    Ethernet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.8" data-path="Flashlight.html">
+            
+                <a href="Flashlight.html">
+            
+                    
+                    Flashlight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.4.9" data-path="GMChip.html">
+            
+                <a href="GMChip.html">
+            
+                    
+                    GMChip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.10" data-path="ICCard.html">
+            
+                <a href="ICCard.html">
+            
+                    
+                    ICCard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.11" data-path="Key.html">
+            
+                <a href="Key.html">
+            
+                    
+                    Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.12" data-path="LCD.html">
+            
+                <a href="LCD.html">
+            
+                    
+                    LCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.13" data-path="Magcard.html">
+            
+                <a href="Magcard.html">
+            
+                    
+                    Magcard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.14" data-path="Modem.html">
+            
+                <a href="Modem.html">
+            
+                    
+                    Modem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.15" data-path="Pinpad.html">
+            
+                <a href="Pinpad.html">
+            
+                    
+                    Pinpad
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.16" data-path="Printer.html">
+            
+                <a href="Printer.html">
+            
+                    
+                    Printer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.17" data-path="RFCard.html">
+            
+                <a href="RFCard.html">
+            
+                    
+                    RFCard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.18" data-path="SafeModel.html">
+            
+                <a href="SafeModel.html">
+            
+                    
+                    SafeModel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.19" data-path="Sensors.html">
+            
+                <a href="Sensors.html">
+            
+                    
+                    Sensors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.20" data-path="TouchPanel.html">
+            
+                <a href="TouchPanel.html">
+            
+                    
+                    TouchPanel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.21" data-path="USB.html">
+            
+                <a href="USB.html">
+            
+                    
+                    USB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.22" data-path="Wifi.html">
+            
+                <a href="Wifi.html">
+            
+                    
+                    Wifi
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../software/">
+            
+                <a href="../software/">
+            
+                    
+                    titan.android.dataacq.software
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="../software/Security.html">
+            
+                <a href="../software/Security.html">
+            
+                    
+                    Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.2" data-path="../software/SystemUsage.html">
+            
+                <a href="../software/SystemUsage.html">
+            
+                    
+                    SystemUsage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../../easytouch/README.md">
+            
+                <span>
+            
+                    
+                    titan.android.easytouch
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="../../easytouch/EasyTouchService.html">
+            
+                <a href="../../easytouch/EasyTouchService.html">
+            
+                    
+                    EasyTouchService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="../../easytouch/ETShortcutInfo.html">
+            
+                <a href="../../easytouch/ETShortcutInfo.html">
+            
+                    
+                    ETShortcutInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../../.." >GMChip</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="gmchip">GMChip</h1>
+<h5 id="extends-titanandroidcoredadaacqstatscomponent">extends titan.android.core.dadaacq.StatsComponent</h5>
+<h4 id="since-100">since 1.0.0</h4>
+<h2 id="&#x6982;&#x89C8;">&#x6982;&#x89C8;</h2>
+<p>&#x56FD;&#x5BC6;&#x82AF;&#x7247;&#x6570;&#x636E;&#x91C7;&#x96C6;. &#x901A;&#x8FC7;DataAcqService.getComponent(GMChip.class)&#x83B7;&#x53D6;&#x5B9E;&#x4F8B;&#x3002;</p>
+<h2 id="&#x91C7;&#x96C6;&#x5E38;&#x91CF;">&#x91C7;&#x96C6;&#x5E38;&#x91CF;</h2>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+  <th width="100" align="left">&#x540D;&#x79F0;
+  </th><th width="60" align="left">getUsage&#x8FD4;&#x56DE;&#x7C7B;&#x578B;
+  </th><th align="left">&#x8BF4;&#x660E;
+</th></tr>
+<tr>
+  <td width="100">ENCRYPT_IC_MODEL</td>
+  <td>String</td>
+  <td>&#x83B7;&#x53D6;&#x56FD;&#x5BC6;&#x82AF;&#x7247;&#x578B;&#x53F7;</td>
+</tr>
+</table>
+
+
+<h2 id="&#x63A5;&#x53E3;&#x8BF4;&#x660E;">&#x63A5;&#x53E3;&#x8BF4;&#x660E;</h2>
+<blockquote>
+<h3 id="&#x6784;&#x9020;&#x65B9;&#x6CD5;">&#x6784;&#x9020;&#x65B9;&#x6CD5;</h3>
+</blockquote>
+<p>&#x4E0D;&#x652F;&#x6301;&#x5E94;&#x7528;&#x76F4;&#x63A5;&#x5B9E;&#x4F8B;&#x5316;&#xFF0C;&#x800C;&#x662F;&#x901A;&#x8FC7;DataAcqService.getComponent(GMChip.class)&#x63A5;&#x53E3;&#x83B7;&#x53D6;&#x5B9E;&#x4F8B;&#x3002;</p>
+<blockquote>
+<h3 id="getusage">getUsage</h3>
+</blockquote>
+<p>public <t> T getUsage(DataAcqRequest<t> request) throws ServiceDeathException, RemoteExecuteException </t></t></p>
+<h5 id="&#x63A5;&#x53E3;&#x529F;&#x80FD;">&#x63A5;&#x53E3;&#x529F;&#x80FD;</h5>
+<p>&#x83B7;&#x53D6;&#x91C7;&#x96C6;&#x6570;&#x636E;.</p>
+<h5 id="&#x65B9;&#x6CD5;&#x53C2;&#x6570;">&#x65B9;&#x6CD5;&#x53C2;&#x6570;</h5>
+<ul>
+<li>request&#xFF1A;&#x91C7;&#x96C6;&#x8BF7;&#x6C42;&#xFF0C;&#x4E0D;&#x53EF;&#x4E3A;null&#x3002;&#x4F20;&#x5165;<a href="#&#x91C7;&#x96C6;&#x5E38;&#x91CF;">&#x91C7;&#x96C6;&#x5E38;&#x91CF;</a>&#xFF1A;<ul>
+<li>ENCRYPT_IC_MODEL</li>
+</ul>
+</li>
+</ul>
+<h5 id="&#x8FD4;&#x56DE;&#x503C;">&#x8FD4;&#x56DE;&#x503C;</h5>
+<p>&#x7EDF;&#x8BA1;&#x91CF;&#x3002;</p>
+<h5 id="&#x5F02;&#x5E38;">&#x5F02;&#x5E38;</h5>
+<ul>
+<li>ServiceDeathException &#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x672A;&#x8FD0;&#x884C;&#x65F6;&#x629B;&#x51FA;&#x3002;</li>
+<li>RemoteExecuteException &#x4EE5;&#x4E0B;&#x9519;&#x8BEF;&#x65F6;&#x629B;&#x51FA;&#xFF1A;<ul>
+<li>&#x5E94;&#x7528;&#x65E0;&#x6743;&#x9650;&#x65F6;</li>
+<li>&#x6570;&#x636E;&#x89E3;&#x6790;&#x5931;&#x8D25;</li>
+<li>&#x91C7;&#x96C6;&#x56E0;&#x5B50;&#x4E0D;&#x88AB;&#x652F;&#x6301;</li>
+<li>&#x7CFB;&#x7EDF;&#x4E0D;&#x652F;&#x6301;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x7F16;&#x7A0B;&#x793A;&#x4F8B;&#xFF1A;">&#x7F16;&#x7A0B;&#x793A;&#x4F8B;&#xFF1A;</h2>
+<pre><code>TitanContext titan = TitanContext.getTitanContext(context);
+ try {
+     DataAcqService dataAcq = titan.getService(DataAcqService.class);
+     GMChip chip = dataAcq.getComponent(GMChip.class);
+     //&#x83B7;&#x53D6;&#x56FD;&#x5BC6;&#x82AF;&#x7247;&#x578B;&#x53F7;
+    String model = chip.getUsage(GMChip.ENCRYPT_IC_MODEL);
+ } catch (ServiceNotFoundException e) {
+     e.printStackTrace();
+ } catch (ServiceDeathException e) {
+     e.printStackTrace();
+ } catch (RemoteExecuteException e) {
+     e.printStackTrace();
+ }
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Flashlight.html" class="navigation navigation-prev " aria-label="Previous page: Flashlight">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ICCard.html" class="navigation navigation-next " aria-label="Next page: ICCard">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"GMChip","level":"1.5.4.9","depth":3,"next":{"title":"ICCard","level":"1.5.4.10","depth":3,"path":"apidoc/titan/android/dataacq/hardware/ICCard.md","ref":"apidoc/titan/android/dataacq/hardware/ICCard.md","articles":[]},"previous":{"title":"Flashlight","level":"1.5.4.8","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Flashlight.md","ref":"apidoc/titan/android/dataacq/hardware/Flashlight.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"apidoc/titan/android/dataacq/hardware/GMChip.md","mtime":"2018-10-22T09:11:50.478Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-24T03:28:30.168Z"},"basePath":"../../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

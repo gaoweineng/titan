@@ -1,0 +1,874 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>鉴权方式 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../apidoc/" />
+    
+    
+    <link rel="prev" href="../developers/developer.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    关于Titan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../versions/">
+            
+                <a href="../versions/">
+            
+                    
+                    版本履历
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../versions/1.0.0.html">
+            
+                <a href="../versions/1.0.0.html">
+            
+                    
+                    1.0.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../developers/developer.html">
+            
+                <a href="../developers/developer.html">
+            
+                    
+                    开发者指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="authen.html">
+            
+                <a href="authen.html">
+            
+                    
+                    鉴权方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../apidoc/">
+            
+                <a href="../apidoc/">
+            
+                    
+                    API 文档
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../apidoc/titan/android/common/Errors.html">
+            
+                <a href="../apidoc/titan/android/common/Errors.html">
+            
+                    
+                    API 错误码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../apidoc/titan/android/">
+            
+                <a href="../apidoc/titan/android/">
+            
+                    
+                    titan.android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../apidoc/titan/android/TitanContext.html">
+            
+                <a href="../apidoc/titan/android/TitanContext.html#TitanContext">
+            
+                    
+                    TitanContext
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../apidoc/titan/android/DeviceNotSupportedException.html">
+            
+                <a href="../apidoc/titan/android/DeviceNotSupportedException.html">
+            
+                    
+                    DeviceNotSupportedException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../apidoc/titan/android/MethodNotSupportedException.html">
+            
+                <a href="../apidoc/titan/android/MethodNotSupportedException.html">
+            
+                    
+                    MethodNotSupportedException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="../apidoc/titan/android/NotPermissionException.html">
+            
+                <a href="../apidoc/titan/android/NotPermissionException.html">
+            
+                    
+                    NotPermissionException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.5" data-path="../apidoc/titan/android/RemoteExecuteException.html">
+            
+                <a href="../apidoc/titan/android/RemoteExecuteException.html">
+            
+                    
+                    RemoteExecuteException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.6" data-path="../apidoc/titan/android/ServiceDeathException.html">
+            
+                <a href="../apidoc/titan/android/ServiceDeathException.html">
+            
+                    
+                    ServiceDeathException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.7" data-path="../apidoc/titan/android/ServiceNotFoundException.html">
+            
+                <a href="../apidoc/titan/android/ServiceNotFoundException.html">
+            
+                    
+                    ServiceNotFoundException
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../apidoc/titan/android/dataacq/">
+            
+                <a href="../apidoc/titan/android/dataacq/">
+            
+                    
+                    titan.android.dataacq
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../apidoc/titan/android/dataacq/DataAcqService.html">
+            
+                <a href="../apidoc/titan/android/dataacq/DataAcqService.html">
+            
+                    
+                    DataAcqService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../apidoc/titan/android/dataacq/ComponentStatus.html">
+            
+                <a href="../apidoc/titan/android/dataacq/ComponentStatus.html">
+            
+                    
+                    ComponentStatus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../apidoc/titan/android/dataacq/hardware/">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/">
+            
+                    
+                    titan.android.dataacq.hardware
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="../apidoc/titan/android/dataacq/hardware/AudioJack.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/AudioJack.html">
+            
+                    
+                    AudioJack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="../apidoc/titan/android/dataacq/hardware/Battery.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Battery.html">
+            
+                    
+                    Battery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="../apidoc/titan/android/dataacq/hardware/Bluetooth.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Bluetooth.html">
+            
+                    
+                    Bluetooth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="../apidoc/titan/android/dataacq/hardware/Camera.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Camera.html">
+            
+                    
+                    Camera
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.5" data-path="../apidoc/titan/android/dataacq/hardware/CPU.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/CPU.html">
+            
+                    
+                    CPU
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.6" data-path="../apidoc/titan/android/dataacq/hardware/EMMC.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/EMMC.html">
+            
+                    
+                    EMMC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.7" data-path="../apidoc/titan/android/dataacq/hardware/Ethernetmd">
+            
+                <span>
+            
+                    
+                    Ethernet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.8" data-path="../apidoc/titan/android/dataacq/hardware/Flashlight.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Flashlight.html">
+            
+                    
+                    Flashlight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.9" data-path="../apidoc/titan/android/dataacq/hardware/GMChip.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/GMChip.html">
+            
+                    
+                    GMChip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.10" data-path="../apidoc/titan/android/dataacq/hardware/ICCard.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/ICCard.html">
+            
+                    
+                    ICCard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.11" data-path="../apidoc/titan/android/dataacq/hardware/Key.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Key.html">
+            
+                    
+                    Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.12" data-path="../apidoc/titan/android/dataacq/hardware/LCD.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/LCD.html">
+            
+                    
+                    LCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.13" data-path="../apidoc/titan/android/dataacq/hardware/Magcard.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Magcard.html">
+            
+                    
+                    Magcard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.14" data-path="../apidoc/titan/android/dataacq/hardware/Modem.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Modem.html">
+            
+                    
+                    Modem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.15" data-path="../apidoc/titan/android/dataacq/hardware/Pinpad.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Pinpad.html">
+            
+                    
+                    Pinpad
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.16" data-path="../apidoc/titan/android/dataacq/hardware/Printer.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Printer.html">
+            
+                    
+                    Printer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.17" data-path="../apidoc/titan/android/dataacq/hardware/RFCard.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/RFCard.html">
+            
+                    
+                    RFCard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.18" data-path="../apidoc/titan/android/dataacq/hardware/SafeModel.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/SafeModel.html">
+            
+                    
+                    SafeModel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.19" data-path="../apidoc/titan/android/dataacq/hardware/Sensors.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Sensors.html">
+            
+                    
+                    Sensors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.20" data-path="../apidoc/titan/android/dataacq/hardware/TouchPanel.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/TouchPanel.html">
+            
+                    
+                    TouchPanel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.21" data-path="../apidoc/titan/android/dataacq/hardware/USB.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/USB.html">
+            
+                    
+                    USB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.22" data-path="../apidoc/titan/android/dataacq/hardware/Wifi.html">
+            
+                <a href="../apidoc/titan/android/dataacq/hardware/Wifi.html">
+            
+                    
+                    Wifi
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../apidoc/titan/android/dataacq/software/">
+            
+                <a href="../apidoc/titan/android/dataacq/software/">
+            
+                    
+                    titan.android.dataacq.software
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="../apidoc/titan/android/dataacq/software/Security.html">
+            
+                <a href="../apidoc/titan/android/dataacq/software/Security.html">
+            
+                    
+                    Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.2" data-path="../apidoc/titan/android/dataacq/software/SystemUsage.html">
+            
+                <a href="../apidoc/titan/android/dataacq/software/SystemUsage.html">
+            
+                    
+                    SystemUsage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../apidoc/titan/android/easytouch/README.md">
+            
+                <span>
+            
+                    
+                    titan.android.easytouch
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="../apidoc/titan/android/easytouch/EasyTouchService.html">
+            
+                <a href="../apidoc/titan/android/easytouch/EasyTouchService.html">
+            
+                    
+                    EasyTouchService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="../apidoc/titan/android/easytouch/ETShortcutInfo.html">
+            
+                <a href="../apidoc/titan/android/easytouch/ETShortcutInfo.html">
+            
+                    
+                    ETShortcutInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >鉴权方式</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x9274;&#x6743;&#x65B9;&#x5F0F;">&#x9274;&#x6743;&#x65B9;&#x5F0F;</h1>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../developers/developer.html" class="navigation navigation-prev " aria-label="Previous page: 开发者指南">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../apidoc/" class="navigation navigation-next " aria-label="Next page: API 文档">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"鉴权方式","level":"1.4","depth":1,"next":{"title":"API 文档","level":"1.5","depth":1,"path":"apidoc/README.md","ref":"apidoc/README.md","articles":[{"title":"API 错误码","level":"1.5.1","depth":2,"path":"apidoc/titan/android/common/Errors.md","ref":"apidoc/titan/android/common/Errors.md","articles":[]},{"title":"titan.android","level":"1.5.2","depth":2,"path":"apidoc/titan/android/README.md","ref":"apidoc/titan/android/README.md","articles":[{"title":"TitanContext","level":"1.5.2.1","depth":3,"anchor":"#TitanContext","path":"apidoc/titan/android/TitanContext.md","ref":"apidoc/titan/android/TitanContext.md#TitanContext","articles":[]},{"title":"DeviceNotSupportedException","level":"1.5.2.2","depth":3,"path":"apidoc/titan/android/DeviceNotSupportedException.md","ref":"apidoc/titan/android/DeviceNotSupportedException.md","articles":[]},{"title":"MethodNotSupportedException","level":"1.5.2.3","depth":3,"path":"apidoc/titan/android/MethodNotSupportedException.md","ref":"apidoc/titan/android/MethodNotSupportedException.md","articles":[]},{"title":"NotPermissionException","level":"1.5.2.4","depth":3,"path":"apidoc/titan/android/NotPermissionException.md","ref":"apidoc/titan/android/NotPermissionException.md","articles":[]},{"title":"RemoteExecuteException","level":"1.5.2.5","depth":3,"path":"apidoc/titan/android/RemoteExecuteException.md","ref":"apidoc/titan/android/RemoteExecuteException.md","articles":[]},{"title":"ServiceDeathException","level":"1.5.2.6","depth":3,"path":"apidoc/titan/android/ServiceDeathException.md","ref":"apidoc/titan/android/ServiceDeathException.md","articles":[]},{"title":"ServiceNotFoundException","level":"1.5.2.7","depth":3,"path":"apidoc/titan/android/ServiceNotFoundException.md","ref":"apidoc/titan/android/ServiceNotFoundException.md","articles":[]}]},{"title":"titan.android.dataacq","level":"1.5.3","depth":2,"path":"apidoc/titan/android/dataacq/README.md","ref":"apidoc/titan/android/dataacq/README.md","articles":[{"title":"DataAcqService","level":"1.5.3.1","depth":3,"path":"apidoc/titan/android/dataacq/DataAcqService.md","ref":"apidoc/titan/android/dataacq/DataAcqService.md","articles":[]},{"title":"ComponentStatus","level":"1.5.3.2","depth":3,"path":"apidoc/titan/android/dataacq/ComponentStatus.md","ref":"apidoc/titan/android/dataacq/ComponentStatus.md","articles":[]}]},{"title":"titan.android.dataacq.hardware","level":"1.5.4","depth":2,"path":"apidoc/titan/android/dataacq/hardware/README.md","ref":"apidoc/titan/android/dataacq/hardware/README.md","articles":[{"title":"AudioJack","level":"1.5.4.1","depth":3,"path":"apidoc/titan/android/dataacq/hardware/AudioJack.md","ref":"apidoc/titan/android/dataacq/hardware/AudioJack.md","articles":[]},{"title":"Battery","level":"1.5.4.2","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Battery.md","ref":"apidoc/titan/android/dataacq/hardware/Battery.md","articles":[]},{"title":"Bluetooth","level":"1.5.4.3","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Bluetooth.md","ref":"apidoc/titan/android/dataacq/hardware/Bluetooth.md","articles":[]},{"title":"Camera","level":"1.5.4.4","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Camera.md","ref":"apidoc/titan/android/dataacq/hardware/Camera.md","articles":[]},{"title":"CPU","level":"1.5.4.5","depth":3,"path":"apidoc/titan/android/dataacq/hardware/CPU.md","ref":"apidoc/titan/android/dataacq/hardware/CPU.md","articles":[]},{"title":"EMMC","level":"1.5.4.6","depth":3,"path":"apidoc/titan/android/dataacq/hardware/EMMC.md","ref":"apidoc/titan/android/dataacq/hardware/EMMC.md","articles":[]},{"title":"Ethernet","level":"1.5.4.7","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Ethernetmd","ref":"apidoc/titan/android/dataacq/hardware/Ethernetmd","articles":[]},{"title":"Flashlight","level":"1.5.4.8","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Flashlight.md","ref":"apidoc/titan/android/dataacq/hardware/Flashlight.md","articles":[]},{"title":"GMChip","level":"1.5.4.9","depth":3,"path":"apidoc/titan/android/dataacq/hardware/GMChip.md","ref":"apidoc/titan/android/dataacq/hardware/GMChip.md","articles":[]},{"title":"ICCard","level":"1.5.4.10","depth":3,"path":"apidoc/titan/android/dataacq/hardware/ICCard.md","ref":"apidoc/titan/android/dataacq/hardware/ICCard.md","articles":[]},{"title":"Key","level":"1.5.4.11","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Key.md","ref":"apidoc/titan/android/dataacq/hardware/Key.md","articles":[]},{"title":"LCD","level":"1.5.4.12","depth":3,"path":"apidoc/titan/android/dataacq/hardware/LCD.md","ref":"apidoc/titan/android/dataacq/hardware/LCD.md","articles":[]},{"title":"Magcard","level":"1.5.4.13","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Magcard.md","ref":"apidoc/titan/android/dataacq/hardware/Magcard.md","articles":[]},{"title":"Modem","level":"1.5.4.14","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Modem.md","ref":"apidoc/titan/android/dataacq/hardware/Modem.md","articles":[]},{"title":"Pinpad","level":"1.5.4.15","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Pinpad.md","ref":"apidoc/titan/android/dataacq/hardware/Pinpad.md","articles":[]},{"title":"Printer","level":"1.5.4.16","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Printer.md","ref":"apidoc/titan/android/dataacq/hardware/Printer.md","articles":[]},{"title":"RFCard","level":"1.5.4.17","depth":3,"path":"apidoc/titan/android/dataacq/hardware/RFCard.md","ref":"apidoc/titan/android/dataacq/hardware/RFCard.md","articles":[]},{"title":"SafeModel","level":"1.5.4.18","depth":3,"path":"apidoc/titan/android/dataacq/hardware/SafeModel.md","ref":"apidoc/titan/android/dataacq/hardware/SafeModel.md","articles":[]},{"title":"Sensors","level":"1.5.4.19","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Sensors.md","ref":"apidoc/titan/android/dataacq/hardware/Sensors.md","articles":[]},{"title":"TouchPanel","level":"1.5.4.20","depth":3,"path":"apidoc/titan/android/dataacq/hardware/TouchPanel.md","ref":"apidoc/titan/android/dataacq/hardware/TouchPanel.md","articles":[]},{"title":"USB","level":"1.5.4.21","depth":3,"path":"apidoc/titan/android/dataacq/hardware/USB.md","ref":"apidoc/titan/android/dataacq/hardware/USB.md","articles":[]},{"title":"Wifi","level":"1.5.4.22","depth":3,"path":"apidoc/titan/android/dataacq/hardware/Wifi.md","ref":"apidoc/titan/android/dataacq/hardware/Wifi.md","articles":[]}]},{"title":"titan.android.dataacq.software","level":"1.5.5","depth":2,"path":"apidoc/titan/android/dataacq/software/README.md","ref":"apidoc/titan/android/dataacq/software/README.md","articles":[{"title":"Security","level":"1.5.5.1","depth":3,"path":"apidoc/titan/android/dataacq/software/Security.md","ref":"apidoc/titan/android/dataacq/software/Security.md","articles":[]},{"title":"SystemUsage","level":"1.5.5.2","depth":3,"path":"apidoc/titan/android/dataacq/software/SystemUsage.md","ref":"apidoc/titan/android/dataacq/software/SystemUsage.md","articles":[]}]},{"title":"titan.android.easytouch","level":"1.5.6","depth":2,"path":"apidoc/titan/android/easytouch/README.md","ref":"apidoc/titan/android/easytouch/README.md","articles":[{"title":"EasyTouchService","level":"1.5.6.1","depth":3,"path":"apidoc/titan/android/easytouch/EasyTouchService.md","ref":"apidoc/titan/android/easytouch/EasyTouchService.md","articles":[]},{"title":"ETShortcutInfo","level":"1.5.6.2","depth":3,"path":"apidoc/titan/android/easytouch/ETShortcutInfo.md","ref":"apidoc/titan/android/easytouch/ETShortcutInfo.md","articles":[]}]}]},"previous":{"title":"开发者指南","level":"1.3","depth":1,"path":"developers/developer.md","ref":"developers/developer.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"security/authen.md","mtime":"2018-10-22T06:00:31.201Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-24T03:28:30.168Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
