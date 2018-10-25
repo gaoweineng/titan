@@ -174,7 +174,7 @@
 </table>
 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -184,10 +184,10 @@
 
 public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 获取采集数据。
 
-##### 方法参数
+##### 参数
 * request：采集请求，不可为null。传入[采集常量](#采集常量)：
 	- POWERON_COUNT
 	- SHUTDOWN_COUNT
@@ -228,26 +228,6 @@ public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, R
 * ServiceDeathException 远程服务未运行时抛出。
 * RemoteExecuteException 以下错误时抛出：
 	* 应用无权限时
-	* 数据解析失败
-	* 采集因子不被支持
-	* 系统不支持
-
-> ### getStatus
-
-public ComponentStatus getStatus() throws ServiceDeathException, RemoteExecuteException 
-
-##### 接口功能
-
-获取打印设备状态。
-	
-##### 返回值
-
-打印设备状态。
-
-##### 异常
-* ServiceDeathException 远程服务未运行时抛出。
-* RemoteExecuteException 以下错误时抛出：
-	* 应用无权限
 	* 数据解析失败
 	* 采集因子不被支持
 	* 系统不支持

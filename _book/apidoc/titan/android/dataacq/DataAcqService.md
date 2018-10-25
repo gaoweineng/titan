@@ -10,7 +10,7 @@
 
 需要采集某一模块的统计量或状态量时，通过getComponent(Class) 接口获取对应模块的实例,入参为模块的类型, 如获取音频孔模块, 传入AudioJack.class, 如果远程采集服务未运行, 则抛出 ServiceDeathException异常. 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -20,10 +20,10 @@
 
 public <T extends StatsComponent> T getComponent(@NonNull Class<T> clazz) throws ServiceDeathException, ServiceNotFoundException
 
-##### 接口功能
-获取采集模块.
+##### 功能
+获取采集模块。
 
-##### 方法参数
+##### 参数
 * clazz：服务代理对象类型，不可为null。枚举类型有：
 	- AudioJack.class
 	- Battery.class

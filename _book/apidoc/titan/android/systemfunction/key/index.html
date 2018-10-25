@@ -1,0 +1,1386 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>titan.android.systemfunction.key · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="KeyModule.html" />
+    
+    
+    <link rel="prev" href="../application/UsageStatsInfo.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../../">
+            
+                <a href="../../../../../">
+            
+                    
+                    关于Titan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../../../versions/">
+            
+                <a href="../../../../../versions/">
+            
+                    
+                    版本履历
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../../../../versions/1.0.0.html">
+            
+                <a href="../../../../../versions/1.0.0.html">
+            
+                    
+                    1.0.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../../../developers/developer.html">
+            
+                <a href="../../../../../developers/developer.html">
+            
+                    
+                    开发者指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../../../security/authen.html">
+            
+                <a href="../../../../../security/authen.html">
+            
+                    
+                    鉴权方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    API 文档
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../common/Errors.html">
+            
+                <a href="../../common/Errors.html">
+            
+                    
+                    API 错误码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    titan.android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../TitanContext.html">
+            
+                <a href="../../TitanContext.html#TitanContext">
+            
+                    
+                    TitanContext
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../DeviceNotSupportedException.html">
+            
+                <a href="../../DeviceNotSupportedException.html">
+            
+                    
+                    DeviceNotSupportedException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../../MethodNotSupportedException.html">
+            
+                <a href="../../MethodNotSupportedException.html">
+            
+                    
+                    MethodNotSupportedException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="../../NotPermissionException.html">
+            
+                <a href="../../NotPermissionException.html">
+            
+                    
+                    NotPermissionException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.5" data-path="../../RemoteExecuteException.html">
+            
+                <a href="../../RemoteExecuteException.html">
+            
+                    
+                    RemoteExecuteException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.6" data-path="../../ServiceDeathException.html">
+            
+                <a href="../../ServiceDeathException.html">
+            
+                    
+                    ServiceDeathException
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.7" data-path="../../ServiceNotFoundException.html">
+            
+                <a href="../../ServiceNotFoundException.html">
+            
+                    
+                    ServiceNotFoundException
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../dataacq/">
+            
+                <a href="../../dataacq/">
+            
+                    
+                    titan.android.dataacq
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../../dataacq/DataAcqService.html">
+            
+                <a href="../../dataacq/DataAcqService.html">
+            
+                    
+                    DataAcqService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../../dataacq/ComponentStatus.html">
+            
+                <a href="../../dataacq/ComponentStatus.html">
+            
+                    
+                    ComponentStatus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../dataacq/hardware/">
+            
+                <a href="../../dataacq/hardware/">
+            
+                    
+                    titan.android.dataacq.hardware
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="../../dataacq/hardware/AudioJack.html">
+            
+                <a href="../../dataacq/hardware/AudioJack.html">
+            
+                    
+                    AudioJack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="../../dataacq/hardware/Battery.html">
+            
+                <a href="../../dataacq/hardware/Battery.html">
+            
+                    
+                    Battery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="../../dataacq/hardware/Bluetooth.html">
+            
+                <a href="../../dataacq/hardware/Bluetooth.html">
+            
+                    
+                    Bluetooth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="../../dataacq/hardware/Camera.html">
+            
+                <a href="../../dataacq/hardware/Camera.html">
+            
+                    
+                    Camera
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.5" data-path="../../dataacq/hardware/CPU.html">
+            
+                <a href="../../dataacq/hardware/CPU.html">
+            
+                    
+                    CPU
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.6" data-path="../../dataacq/hardware/EMMC.html">
+            
+                <a href="../../dataacq/hardware/EMMC.html">
+            
+                    
+                    EMMC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.7" data-path="../../dataacq/hardware/Ethernetmd">
+            
+                <span>
+            
+                    
+                    Ethernet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.8" data-path="../../dataacq/hardware/Flashlight.html">
+            
+                <a href="../../dataacq/hardware/Flashlight.html">
+            
+                    
+                    Flashlight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.9" data-path="../../dataacq/hardware/GMChip.html">
+            
+                <a href="../../dataacq/hardware/GMChip.html">
+            
+                    
+                    GMChip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.10" data-path="../../dataacq/hardware/ICCard.html">
+            
+                <a href="../../dataacq/hardware/ICCard.html">
+            
+                    
+                    ICCard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.11" data-path="../../dataacq/hardware/Key.html">
+            
+                <a href="../../dataacq/hardware/Key.html">
+            
+                    
+                    Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.12" data-path="../../dataacq/hardware/LCD.html">
+            
+                <a href="../../dataacq/hardware/LCD.html">
+            
+                    
+                    LCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.13" data-path="../../dataacq/hardware/Magcard.html">
+            
+                <a href="../../dataacq/hardware/Magcard.html">
+            
+                    
+                    Magcard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.14" data-path="../../dataacq/hardware/Modem.html">
+            
+                <a href="../../dataacq/hardware/Modem.html">
+            
+                    
+                    Modem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.15" data-path="../../dataacq/hardware/Pinpad.html">
+            
+                <a href="../../dataacq/hardware/Pinpad.html">
+            
+                    
+                    Pinpad
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.16" data-path="../../dataacq/hardware/Printer.html">
+            
+                <a href="../../dataacq/hardware/Printer.html">
+            
+                    
+                    Printer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.17" data-path="../../dataacq/hardware/RFCard.html">
+            
+                <a href="../../dataacq/hardware/RFCard.html">
+            
+                    
+                    RFCard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.18" data-path="../../dataacq/hardware/SafeModel.html">
+            
+                <a href="../../dataacq/hardware/SafeModel.html">
+            
+                    
+                    SafeModel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.19" data-path="../../dataacq/hardware/Sensors.html">
+            
+                <a href="../../dataacq/hardware/Sensors.html">
+            
+                    
+                    Sensors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.20" data-path="../../dataacq/hardware/TouchPanel.html">
+            
+                <a href="../../dataacq/hardware/TouchPanel.html">
+            
+                    
+                    TouchPanel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.21" data-path="../../dataacq/hardware/USB.html">
+            
+                <a href="../../dataacq/hardware/USB.html">
+            
+                    
+                    USB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.22" data-path="../../dataacq/hardware/Wifi.html">
+            
+                <a href="../../dataacq/hardware/Wifi.html">
+            
+                    
+                    Wifi
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../../dataacq/software/">
+            
+                <a href="../../dataacq/software/">
+            
+                    
+                    titan.android.dataacq.software
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="../../dataacq/software/Security.html">
+            
+                <a href="../../dataacq/software/Security.html">
+            
+                    
+                    Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.2" data-path="../../dataacq/software/SystemUsage.html">
+            
+                <a href="../../dataacq/software/SystemUsage.html">
+            
+                    
+                    SystemUsage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../../easytouch/">
+            
+                <a href="../../easytouch/">
+            
+                    
+                    titan.android.easytouch
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="../../easytouch/EasyTouchService.html">
+            
+                <a href="../../easytouch/EasyTouchService.html">
+            
+                    
+                    EasyTouchService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="../../easytouch/ETShortcutInfo.html">
+            
+                <a href="../../easytouch/ETShortcutInfo.html">
+            
+                    
+                    ETShortcutInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../../ethernet/">
+            
+                <a href="../../ethernet/">
+            
+                    
+                    titan.android.ethernet
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.7.1" data-path="../../ethernet/EthernetService.html">
+            
+                <a href="../../ethernet/EthernetService.html">
+            
+                    
+                    EthernetService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.2" data-path="../../ethernet/DHCPInfo.html">
+            
+                <a href="../../ethernet/DHCPInfo.html">
+            
+                    
+                    DHCPInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../../resetfactory/">
+            
+                <a href="../../resetfactory/">
+            
+                    
+                    titan.android.resetfactory
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.8.1" data-path="../../resetfactory/ResetFactoryService.html">
+            
+                <a href="../../resetfactory/ResetFactoryService.html">
+            
+                    
+                    ResetFactoryService
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    titan.android.systemfunction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.9.1" data-path="../SystemFunctionService.html">
+            
+                <a href="../SystemFunctionService.html">
+            
+                    
+                    SystemFunctionService
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../application/">
+            
+                <a href="../application/">
+            
+                    
+                    titan.android.systemfunction.application
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.10.1" data-path="../application/ApplicationModule.html">
+            
+                <a href="../application/ApplicationModule.html">
+            
+                    
+                    ApplicationModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.2" data-path="../application/AppSignInfo.html">
+            
+                <a href="../application/AppSignInfo.html">
+            
+                    
+                    AppSignInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.3" data-path="../application/AppSizeInfo.html">
+            
+                <a href="../application/AppSizeInfo.html">
+            
+                    
+                    AppSizeInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.4" data-path="../application/UsageStatsInfo.html">
+            
+                <a href="../application/UsageStatsInfo.html">
+            
+                    
+                    UsageStatsInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.11" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    titan.android.systemfunction.key
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.11.1" data-path="KeyModule.html">
+            
+                <a href="KeyModule.html">
+            
+                    
+                    KeyModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="../location/">
+            
+                <a href="../location/">
+            
+                    
+                    titan.android.systemfunction.location
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.12.1" data-path="../location/LocationModule.html">
+            
+                <a href="../location/LocationModule.html">
+            
+                    
+                    LocationModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="../mount/">
+            
+                <a href="../mount/">
+            
+                    
+                    titan.android.systemfunction.mount
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.13.1" data-path="../mount/MountModule.html">
+            
+                <a href="../mount/MountModule.html">
+            
+                    
+                    MountModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="../nfc/">
+            
+                <a href="../nfc/">
+            
+                    
+                    titan.android.systemfunction.nfc
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.14.1" data-path="../nfc/NfcModule.html">
+            
+                <a href="../nfc/NfcModule.html">
+            
+                    
+                    NfcModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="../process/">
+            
+                <a href="../process/">
+            
+                    
+                    titan.android.systemfunction.process
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.15.1" data-path="../process/ProcessModule.html">
+            
+                <a href="../process/ProcessModule.html">
+            
+                    
+                    ProcessModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16" data-path="../setting/">
+            
+                <a href="../setting/">
+            
+                    
+                    titan.android.systemfunction.setting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.16.1" data-path="../setting/SettingModule.html">
+            
+                <a href="../setting/SettingModule.html">
+            
+                    
+                    SettingModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.2" data-path="../setting/IMEInfo.html">
+            
+                <a href="../setting/IMEInfo.html">
+            
+                    
+                    IMEInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.3" data-path="../setting/LanguageInfo.html">
+            
+                <a href="../setting/LanguageInfo.html">
+            
+                    
+                    LanguageInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.4" data-path="../setting/TimeZoneInfo.html">
+            
+                <a href="../setting/TimeZoneInfo.html">
+            
+                    
+                    TimeZoneInfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17" data-path="../statusbar/">
+            
+                <a href="../statusbar/">
+            
+                    
+                    titan.android.systemfunction.statusbar
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.17.1" data-path="../statusbar/StatusBarModule.html">
+            
+                <a href="../statusbar/StatusBarModule.html">
+            
+                    
+                    StatusBarModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18" data-path="../telephony/">
+            
+                <a href="../telephony/">
+            
+                    
+                    titan.android.systemfunction.telephony
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.18.1" data-path="../telephony/TelephonyModule.html">
+            
+                <a href="../telephony/TelephonyModule.html">
+            
+                    
+                    TelephonyModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19" data-path="../usb/">
+            
+                <a href="../usb/">
+            
+                    
+                    titan.android.systemfunction.usb
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.19.1" data-path="../usb/UsbModule.html">
+            
+                <a href="../usb/UsbModule.html">
+            
+                    
+                    UsbModule
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../../.." >titan.android.systemfunction.key</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5305;&#x540D;">&#x5305;&#x540D;</h1>
+<p>titan.android.systemfunction.key</p>
+<h1 id="&#x6A21;&#x5757;">&#x6A21;&#x5757;</h1>
+<ul>
+<li><a href="KeyModule.html">&#x6309;&#x952E;&#x7BA1;&#x7406;&#x6A21;&#x5757;</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../application/UsageStatsInfo.html" class="navigation navigation-prev " aria-label="Previous page: UsageStatsInfo">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="KeyModule.html" class="navigation navigation-next " aria-label="Next page: KeyModule">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"titan.android.systemfunction.key","level":"1.5.11","depth":2,"next":{"title":"KeyModule","level":"1.5.11.1","depth":3,"path":"apidoc/titan/android/systemfunction/key/KeyModule.md","ref":"apidoc/titan/android/systemfunction/key/KeyModule.md","articles":[]},"previous":{"title":"UsageStatsInfo","level":"1.5.10.4","depth":3,"path":"apidoc/titan/android/systemfunction/application/UsageStatsInfo.md","ref":"apidoc/titan/android/systemfunction/application/UsageStatsInfo.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"apidoc/titan/android/systemfunction/key/README.md","mtime":"2018-10-25T06:44:16.974Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-25T06:48:53.584Z"},"basePath":"../../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

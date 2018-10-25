@@ -15,7 +15,7 @@
 
 等系统功能。
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -25,10 +25,10 @@
 
 public static TitanContext getTitanContext(Context context)	
 
-##### 接口功能
+##### 功能
 获取TitanContext实例。
 
-##### 方法参数
+##### 参数
 * context：应用上下文。
 
 ##### 返回值
@@ -38,10 +38,10 @@ TitanContext唯一实例。
 
 public <T extends TitanService> T getService(@NonNull Class<T> serviceType) throws ServiceNotFoundException
 
-##### 接口功能
+##### 功能
 获取统一接口远程服务在应用端的代理对象,通过服务代理对象访问系统功能。
 
-##### 方法参数
+##### 参数
 * serviceType：服务代理对象类型，不可为null。枚举类型有：
 	- DataAcqService.class
 	- EasyTouchService.class

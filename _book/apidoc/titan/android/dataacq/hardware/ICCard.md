@@ -34,7 +34,7 @@
 </table>
 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -44,10 +44,10 @@
 
 public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
-获取采集数据.
+##### 功能
+获取采集数据。
 
-##### 方法参数
+##### 参数
 * request：采集请求，不可为null。传入[采集常量](#采集常量)：
 	- POWERUP_SUCCESS_COUNT
 	- POWERUP_FAIL_COUNT
@@ -68,7 +68,7 @@ public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, R
 
 public ComponentStatus getICCard1Status() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取IC卡设备状态。
 	
@@ -88,7 +88,7 @@ IC卡设备状态。
 
 public ComponentStatus getICCard2Status() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取IC卡2设备状态。
 	
@@ -108,7 +108,7 @@ IC卡2设备状态。
 
 public ComponentStatus getSAM1CardStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取SAM1设备状态。
 	
@@ -128,7 +128,7 @@ SAM1设备状态。
 
 public ComponentStatus getSAM2CardStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取SAM2设备状态。
 	
@@ -148,7 +148,7 @@ SAM2设备状态。
 
 public ComponentStatus getSAM3CardStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取SAM3设备状态。
 	
@@ -168,7 +168,7 @@ SAM3设备状态。
 
 public ComponentStatus getSAM4CardStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取SAM4设备状态。
 	

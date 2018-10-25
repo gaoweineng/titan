@@ -8,7 +8,7 @@
 
 传感器数据采集. 通过DataAcqService.getComponent(Sensors.class)获取实例。
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -18,7 +18,7 @@
 
 public ComponentStatus getLightSensorStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取光传感器通信状态。
 	
@@ -38,7 +38,7 @@ public ComponentStatus getLightSensorStatus() throws ServiceDeathException, Remo
 
 public ComponentStatus getAccSensorStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取加速传感器通信状态。
 	

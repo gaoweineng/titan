@@ -1,4 +1,4 @@
-# EasyTouchService
+# EthernetService
 
 ##### extends titan.android.core.TitanService  #####
 				

@@ -9,7 +9,7 @@
 触屏数据采集. 通过DataAcqService.getComponent(TouchPanel.class)获取实例。
 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -19,7 +19,7 @@
 
 public ComponentStatus getStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取触屏通信状态。
 	

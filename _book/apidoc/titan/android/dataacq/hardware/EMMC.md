@@ -34,7 +34,7 @@ EMMC模块采集. 通过DataAcqService.getComponent(EMMC.class)获取实例。
 </table>
 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -44,10 +44,10 @@ EMMC模块采集. 通过DataAcqService.getComponent(EMMC.class)获取实例。
 
 public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
-获取采集数据.
+##### 功能
+获取采集数据。
 
-##### 方法参数
+##### 参数
 * request：采集请求，不可为null。传入[采集常量](#采集常量)：
 	- EMMC_MANUFACTURER
 	- EMMC_MODEL
@@ -72,7 +72,7 @@ TitanContext titan = TitanContext.getTitanContext(context);
  	DataAcqService dataAcq = titan.getService(DataAcqService.class);
  	EMMC emmc = dataAcq.getComponent(EMMC.class);
 	//获取EMMC厂商
- 	String manu = camera.getUsage(EMMC.EMMC_MANUFACTURER);
+ 	String manu = emmc.getUsage(EMMC.EMMC_MANUFACTURER);
  } catch (ServiceNotFoundException e) {
  	e.printStackTrace();
  } catch (ServiceDeathException e) {

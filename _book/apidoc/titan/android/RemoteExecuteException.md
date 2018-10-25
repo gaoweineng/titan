@@ -15,13 +15,19 @@
 * 设备不支持,如设备不具备执行此接口的条件时抛出 DeviceNotSupportedException。 
 * 功能不支持,如系统服务未升级到满足该接口的版本或与远程服务交互异常时抛出MethodNotSupportedException。
 
-## 接口说明
+## 子类
+
+* [DeviceNotSupportedException](apidoc/titan/android/DeviceNotSupportedException.md)
+* [MethodNotSupportedException](apidoc/titan/android/MethodNotSupportedException.md)
+* [NotPermissionException](apidoc/titan/android/NotPermissionException.md)
+
+## 方法说明
 
 > ### getErrorCode
 
 public int getErrorCode()	
 
-##### 接口功能
+##### 功能
 
 获取异常错误码.
 
@@ -32,7 +38,7 @@ public int getErrorCode()
 
 public String getLocalizedMessage()	
 
-##### 接口功能
+##### 功能
 
 获取异常信息。
 

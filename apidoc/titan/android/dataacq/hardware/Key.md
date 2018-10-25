@@ -6,7 +6,7 @@
 
 ## 概览
 
-电源键数据采集. 通过DataAcqService.getComponent(Key.class)获取实例。
+按键数据采集. 通过DataAcqService.getComponent(Key.class)获取实例。
 
 ## 采集常量
 

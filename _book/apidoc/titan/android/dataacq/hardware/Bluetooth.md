@@ -34,7 +34,7 @@
 </table>
 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -44,10 +44,10 @@
 
 public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
-获取采集数据.
+##### 功能
+获取采集数据。
 
-##### 方法参数
+##### 参数
 * request：采集请求，不可为null。传入[采集常量](#采集常量)：
 	- BLUETOOTH_MODEL
 	- BLUETOOTH_MAC
@@ -68,8 +68,9 @@ public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, R
 
 public ComponentStatus getStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
-获取蓝牙运行状态.
+##### 功能
+
+获取蓝牙运行状态。
 	
 ##### 返回值
 蓝牙运行状态量信息。

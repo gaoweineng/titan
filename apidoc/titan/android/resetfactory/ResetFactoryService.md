@@ -64,3 +64,24 @@ public void resetShallow(ResetListener listener) throws ServiceDeathException, R
 	- 应用无权限	
 	- 系统不支持
 	- 参数错误
+
+## 编程示例：
+
+```
+TitanContext titan = TitanContext.getTitanContext(context);
+ try {
+ 	ResetFactoryService service = titan.getService(ResetFactoryService.class);
+ 	//深度恢复出厂设置
+ 	service.resetDeep(true, new ResetListener(){
+		@Override
+		public void onResult(int result){
+		}
+	});
+ } catch (ServiceNotFoundException e) {
+ 	e.printStackTrace();
+ } catch (ServiceDeathException e) {
+ 	e.printStackTrace();
+ } catch (RemoteExecuteException e) {
+ 	e.printStackTrace();
+ }
+```

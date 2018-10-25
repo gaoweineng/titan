@@ -39,7 +39,7 @@
 </table>
 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -49,10 +49,10 @@
 
 public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 获取采集数据。
 
-##### 方法参数
+##### 参数
 * request：采集请求，不可为null。传入[采集常量](#采集常量)：
 	- ACTIVATE_SUCCESS_COUNT
 	- ACTIVATE_FAIL_COUNT
@@ -74,7 +74,7 @@ public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, R
 
 public ComponentStatus getStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取射频卡设备状态。
 	

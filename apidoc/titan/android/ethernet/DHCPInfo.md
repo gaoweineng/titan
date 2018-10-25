@@ -1,12 +1,12 @@
-# ETShortcutInfo		
+# DHCPInfo		
 
-##### extends android.os.Parcel  #####
+##### implements android.os.Parcelable  #####
 		
 #### since 1.0.0 ####
 
 ## 概览
 
-悬浮球快捷菜单配置信息。
+DHCP元信息。
 
 ## 方法说明
 

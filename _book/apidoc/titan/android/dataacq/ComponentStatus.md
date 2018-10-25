@@ -16,13 +16,13 @@
 * E ： 故障
 * W ： 警告
 
-## 接口说明
+## 方法说明
 
 > ### getEncoder
 
 public String getEncoder()
 
-##### 接口功能
+##### 功能
 获取编码定义方。
 
 ##### 返回值
@@ -32,7 +32,7 @@ public String getEncoder()
 
 public Level getLevel()
 
-##### 接口功能
+##### 功能
 获取状态码级别。
 
 ##### 返回值
@@ -42,7 +42,7 @@ public Level getLevel()
 
 public String getDescription()
 
-##### 接口功能
+##### 功能
 获取状态码简单描述。
 
 ##### 返回值
@@ -52,7 +52,7 @@ public String getDescription()
 
 public int getTagNo()
 
-##### 接口功能
+##### 功能
 获取采集因子tagNo。
 
 ##### 返回值
@@ -62,7 +62,7 @@ public int getTagNo()
 
 public int getFactorNo()
 
-##### 接口功能
+##### 功能
 获取采集因子factorNo。
 
 ##### 返回值
@@ -72,7 +72,7 @@ public int getFactorNo()
 
 public String getStatusCode()
 
-##### 接口功能
+##### 功能
 获取状态码，16进制表示的状态编码，如0x41。
 
 ##### 返回值

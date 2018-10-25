@@ -1,6 +1,6 @@
 # ETShortcutInfo		
 
-##### extends android.os.Parcel  #####
+##### implements android.os.Parcelable  #####
 		
 #### since 1.0.0 ####
 

@@ -34,7 +34,7 @@ Pinpad模块数据采集. 通过DataAcqService.getComponent(Pinpad.class)获取�
 </table>
 
 
-## 接口说明
+## 方法说明
 
 > ### 构造方法
 
@@ -44,10 +44,10 @@ Pinpad模块数据采集. 通过DataAcqService.getComponent(Pinpad.class)获取�
 
 public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 获取采集数据。
 
-##### 方法参数
+##### 参数
 * request：采集请求，不可为null。传入[采集常量](#采集常量)：
 	- OFFLINE_COUNT
 	- ONLINE_COUNT
@@ -68,7 +68,7 @@ public <T> T getUsage(DataAcqRequest<T> request) throws ServiceDeathException, R
 
 public ComponentStatus getStatus() throws ServiceDeathException, RemoteExecuteException 
 
-##### 接口功能
+##### 功能
 
 获取密码键盘状态。
 	

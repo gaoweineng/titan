@@ -1,0 +1,26 @@
+# 包名
+titan.android.dataacq.hardware
+
+# 模块
+* [音频孔数据采集](AudioJack.md)
+* [电池数据采集](Battery.md)
+* [蓝牙数据采集](Bluetooth.md)
+* [摄像头数据采集](Camera.md)
+* [CPU数据采集](CPU.md)
+* [EMMC模块数据采集](EMMC.md)
+* [以太网数据采集](Ethernet.md)
+* [闪光灯数据采集](Flashlight.md)
+* [国密芯片数据采集](GMChip.md)
+* [接触式卡模块数据采集](ICCard.md)
+* [按键数据采集](Key.md)
+* [显示屏数据采集](LCD.md)
+* [磁条卡模块数据采集](Magcard.md)
+* [Modem数据采集](Modem.md)
+* [Pinpad模块数据采集](Pinpad.md)
+* [打印设备数据采集](Printer.md)
+* [非接触式射频模块数据采集](RFCard.md)
+* [安全模块数据采集](SafeModel.md)
+* [传感器数据采集](Sensors.md)
+* [触屏数据采集](TouchPanel.md)
+* [USB数据采集](USB.md)
+* [Wifi数据采集](Wifi.md)
